@@ -5,8 +5,8 @@ body {
 }
 #About { padding-top:60px;
 			height: 600px;
-			background-color: rgb(41,41,57);
-			background-image: url("images/pattern.jpeg");
+			background-image: url('images/back.jpg');
+			background-position:center;
  }
 #Education { padding-top:50px;
 			height: 500px;
@@ -27,7 +27,6 @@ body {
 		background-color: rgb(20,20,100);
 		box-shadow: -8px 8px 20px rgb(0,0,0);
 		color:white;
-		opacity: 0.5;
  }
  
  

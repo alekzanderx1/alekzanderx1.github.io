@@ -1,4 +1,4 @@
 $(function() {
 		$("#showonload").hide();
-		$("#showonload").fadeIn(5000);
+		$("#showonload").fadeIn(4000);
 	});

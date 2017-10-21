@@ -1,5 +1,5 @@
 $(window).on('load',function() {
-		$(".se-pre-con").fadeOut(8000);;
+		$(".se-pre-con").fadeOut(3000);
 	});
 $(function() {
 		$("#showonload").hide();

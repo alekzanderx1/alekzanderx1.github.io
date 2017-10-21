@@ -23,14 +23,22 @@ body {
 #Education { padding-top:50px;
 			height: 700px;
 			background-color: green;
+			border:1px solid black;
  }
  #Gallery { padding-top:50px;
 			height: 700px;
 			background-color: blue;
+			border:1px solid black;
  }
  #Skills { padding-top:50px;
 			height: 700px;
 			background-color: yellow;
+			border:1px solid black;
+ }
+ #Contact { 
+			height: 400px;
+			background-color: white;
+			border: 1px solid black;
  }
  #showonload {
 		height: 50%;
@@ -143,4 +151,8 @@ body {
     color: #e5f216;
     background-color: #e88356;
   }
+}
+
+#showonload p {
+	padding: 5px;
 }

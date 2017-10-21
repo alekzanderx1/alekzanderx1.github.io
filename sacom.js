@@ -1,8 +1,8 @@
 $(window).on('load',function() {
-		$(".se-pre-con").fadeOut(3000);
+		$(".se-pre-con").fadeOut(2500);
 	});
-$(function() {
-		$("#showonload").hide();
-		$("#showonload").fadeIn(4000);
-	});
+//$(function() {
+	//	$("#showonload").hide();
+		//$("#showonload").fadeIn(4000);
+	//});
 	

@@ -22,7 +22,7 @@ body {
  }
 #Education { padding-top:50px;
 			height: 700px;
-			background-color: green;
+			background-color: #fff7dd;
 			border:1px solid black;
  }
  #Gallery { padding-top:50px;
@@ -161,30 +161,57 @@ body {
 	padding: 5px;
 }
 
-/* xs < 768 */
 @media screen and (max-width: 767px) {
     body {
-        font-size: 0.9em;
+        font-size: 0.95em;
     }
 }
 
-/* sm */
 @media screen and (min-width: 768px) {
-    body {
-        font-size: 1em;
-    }
-}
-
-/* md */
-@media screen and (min-width: 992px) {
     body {
         font-size: 1.2em;
     }
 }
 
-/* lg */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 992px) {
     body {
         font-size: 1.3em;
     }
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        font-size: 1.4em;
+    }
+}
+
+#Education h1 { color: #7c795d; font-family: 'Trocchi', serif; font-size: 50px; font-weight: normal; line-height: 48px; margin: 0; }
+
+
+#Education h2 { color: #7c795d; font-family: 'Source Sans Pro', sans-serif; font-size: 25px; font-weight: 400; line-height: 32px; margin: 0 0 24px; }
+
+
+#Education .subheader { font-size: 26px; font-weight: 300; color: #ffcc66; margin: 0 0 24px; }
+
+
+#Education p { color: #4c4a37; font-family: 'Source Sans Pro', sans-serif; font-size: 18px; line-height: 32px; margin: 0 0 24px; }
+
+
+#Education a { color: #ff9900; background: #fff4a3; text-decoration: none; }
+
+
+#Education a:hover { color: #ffcc66 }
+
+#Education table {
+	width:100%;
+	border:1px solid white;
+	margin:30px;
+}
+
+#Education th{
+	color: #7c795d; font-family: 'Source Sans Pro', sans-serif; font-size: 25px; font-weight: 400; line-height: 32px; margin: 0 0 24px; 
+}
+
+#Education td{
+	 color: #4c4a37; font-family: 'Source Sans Pro', sans-serif; font-size: 18px; line-height: 32px; margin: 0 0 24px;
 }

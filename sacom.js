@@ -1,8 +1,11 @@
 $(window).on('load',function() {
-		$(".se-pre-con").fadeOut(2500);
+		$(".se-pre-con").fadeOut(2000);
 	});
-//$(function() {
-	//	$("#showonload").hide();
-		//$("#showonload").fadeIn(4000);
-	//});
+
 	
+$("#scrolldown").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#Education").offset().top
+    }, 2000);
+});
+

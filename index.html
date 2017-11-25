@@ -13,8 +13,13 @@
 <link rel="icon" href="favicon.ico">
 <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
 <script>
+	function isTouchDevice(){
+    return true == ("ontouchstart" in window || window.DocumentTouch && document instanceof DocumentTouch);
+}
 	$(document).ready(function(){
-		$('[data-toggle="tooltip"]').tooltip(); 
+		if(isTouchDevice()===false) {
+
+		$('[data-toggle="tooltip"]').tooltip();  }
 	});
 </script>
 </head>

@@ -1,3 +1,4 @@
+
 $(window).on('load',function() {
 		$(".se-pre-con").fadeOut(1500);
 	});
@@ -15,7 +16,7 @@ $(document).ready( function () {
     });
 		
 	});
-});;
+});
 
 
 /*$("demo1").one('scroll',function () {

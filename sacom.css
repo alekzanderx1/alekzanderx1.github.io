@@ -67,6 +67,7 @@ body {
 			padding-bottom: 100px;
 			background-color: #555555;
 			border:1px solid black;
+			background-image: url('images/gallery1.jpg');
  }
  #Skills { padding-top:40px;
 			padding-bottom:40px;
@@ -79,6 +80,7 @@ body {
 			height:200px;
 			background-color: #fae9e7;
 			border: 1px solid black;
+			background-image: url('images/footer.jpg');
  }
  #showonload {
 		height: 55%;

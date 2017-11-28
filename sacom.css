@@ -65,8 +65,7 @@ body {
  }
  #Gallery { padding-top:50px;
 			padding-bottom: 100px;
-			//height: 700px;
-			background-color: blue;
+			background-color: #555555;
 			border:1px solid black;
  }
  #Skills { padding-top:40px;
@@ -76,8 +75,9 @@ body {
 			/*background-color:#50514F;*/
  }
  #Contact { 
-			height: 700px;
-			background-color: white;
+			padding:50;
+			height:200px;
+			background-color: #fae9e7;
 			border: 1px solid black;
  }
  #showonload {
@@ -90,14 +90,12 @@ body {
 		opacity: 0.8;
 		
  }
- .carousel {
-  max-height: 700px;
-  overflow: hidden;
-
-  .item img {
-    width: 100%;
-    height: auto;
-  }
+ .footer
+ {
+	 padding-top: 50px;
+ }
+ .peopleCarouselImg img {
+ width: auto; height: 400px; max-height: 400px;
 }
  .fullop
  {

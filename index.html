@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
 <title>Syed Ahmad</title>
 <meta charset="utf=8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -13,6 +12,7 @@
 <link rel="icon" href="favicon.ico">
 <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
 <script>
+	//to disable tooltips in touch devices
 	function isTouchDevice(){
     return true == ("ontouchstart" in window || window.DocumentTouch && document instanceof DocumentTouch);
 }
@@ -47,122 +47,126 @@
 			</div>
 		</div>
 	</div>
+	
+	<!--Section 1-->
 	<div id="About" class="container-fluid">
 		<div id="showonload">
 			<img class="img-responsive" id="computer" src="images/coolcat.png" alt="Oops"></img>
 			<h4 class="fullop">Hey there!</h4>
 			<p class="fullop">My name is Syed Ahmad, a Computer Science and Engineering student studying in the city of Bangalore, India. My major interest is in learning new technologies, languages, frameworks in order solve problems in a creative and efficient way. This website is a place where I try to share my works and knowledge, and also let you know more about myself. <a id="scrolldown" class="btn btn-danger" href="#Education" style="text-shadow:none" height="100%"> Click here to begin!</a>  </p>
-
 		</div>
-		
 	</div>
+	
+	<!--Section 2-->
 	<div id="Education" class="container-fluid">
-	<div class="container-fluid" style="background-color:#B4D599; box-shadow:-3px 3px 12px #D1D596;"><h1><center><span class="glyphicon glyphicon-book"></span>Education</center></h1><br /></div>
-	<div class="row">
-	<div class="col-sm-4">
-		<button  class="btn btn-danger" data-toggle="collapse" data-target="#demo1">Bachelors Degree <span class="glyphicon glyphicon-triangle-bottom"></span></button>
-		<div class="table-responsive collapse" id="demo1">
-			<table border="0" class="table-bordered">
-			<tr>
-				<th>Bachelors Degree</th>
-			</tr>
-			<tr>
-				<td>Sapthagiri College of Engineering</td>
-			</tr>
-			<tr>
-				<td>Bengaluru,Karnataka,India</td>
-			</tr>
-			<tr>
-				<td>BE in Computer Science and Engineering</td>
-			</tr>
-			<tr>
-				<td>72% Aggregate</td>
-			</tr>	
-			<tr>
-				<td>Graduating 2018</td>
-			</tr>
-			<tr>
-				<td>Visvesvaraya Technological University</td>
-			</tr>
-			<tr>
-			<td style="font-size:22px; font-weight:300; color:#ffcc66; margin:0 0 24px;">Activities and Societies:</td>
-			</tr>
-			<tr>
-				<td>Cultural and Technical team</td>
-			</tr>
-			<tr>
-				<td>College Magazine Editorial Team</td>
-			</tr>
-			</table>
+		<div class="container-fluid" style="background-color:#B4D599; box-shadow:-3px 3px 12px #D1D596;"><h1><center><span class="glyphicon glyphicon-book"></span>Education</center></h1><br /></div>
+		<div class="row">
+		<div class="col-sm-4" style="margin-top:10px">
+			<button  class="btn btn-danger" data-toggle="collapse" data-target="#demo1">Bachelors Degree <span class="glyphicon glyphicon-triangle-bottom"></span></button>
+			<div class="table-responsive collapse" id="demo1">
+				<table border="0" class="table-bordered">
+				<tr>
+					<th>Bachelors Degree</th>
+				</tr>
+				<tr>
+					<td>Sapthagiri College of Engineering</td>
+				</tr>
+				<tr>
+					<td>Bengaluru,Karnataka,India</td>
+				</tr>
+				<tr>
+					<td>BE in Computer Science and Engineering</td>
+				</tr>
+				<tr>
+					<td>72% Aggregate</td>
+				</tr>	
+				<tr>
+					<td>Graduating 2018</td>
+				</tr>
+				<tr>
+					<td>Visvesvaraya Technological University</td>
+				</tr>
+				<tr>
+				<td style="font-size:22px; font-weight:300; color:#ffcc66; margin:0 0 24px;">Activities and Societies:</td>
+				</tr>
+				<tr>
+					<td>Cultural and Technical team</td>
+				</tr>
+				<tr>
+					<td>College Magazine Editorial Team</td>
+				</tr>
+				</table>
+			</div>
+		</div>
+		<div class="col-sm-4" style="margin-top:10px">
+			<button class="btn btn-primary" data-toggle="collapse" data-target="#demo2">HSC <span class="glyphicon glyphicon-triangle-bottom"></span></button>
+			<div class="table-responsive collapse" id="demo2">
+				<table border="0" class="table-bordered">
+				<tr>
+					<th >HSC</th>
+				</tr>
+				<tr>
+					<td>DAV Centenary Public School</td>
+				</tr>
+				<tr>
+					<td>Jaipur, Rajasthan, India</td>
+				</tr>
+				<tr>
+					<td>High School/12th</td>
+				</tr>
+				<tr>
+					<td>81%</td>
+				</tr>	
+				<tr>
+					<td>2012-2014</td>
+				</tr>
+				<tr>
+					<td>CBSE</td>
+				</tr>
+				<tr>
+				<td style="font-size:22px; font-weight:300; color:#ffcc66; margin:0 0 24px;">Activities and Societies:</td>
+				</tr>
+				<tr>
+					<td>Football Team</td>
+				</tr>
+				<tr>
+					<td>Basketball Team</td>
+				</tr>
+				</table>
+			</div>
+		</div>
+		<div class="col-sm-4" style="margin-top:10px">
+			<button  class="btn btn-info" data-toggle="collapse" data-target="#demo3">SSC <span class="glyphicon glyphicon-triangle-bottom"></span></button>
+			<div class="table-responsive collapse" id="demo3">
+				<table border="0" class="table-bordered">
+				<tr>
+					<th>SSC</th>
+				</tr>
+				<tr>
+					<td>DAV Centenary Public School</td>
+				</tr>
+				<tr>
+					<td>Jaipur, Rajasthan, India</td>
+				</tr>
+				<tr>
+					<td>SSCE/10th</td>
+				</tr>
+				<tr>
+					<td>9.2 CGPA</td>
+				</tr>	
+				<tr>
+					<td>2012</td>
+				</tr>
+				<tr>
+					<td>CBSE</td>
+				</tr>
+				</table>
+			</div>
+		</div>
 		</div>
 	</div>
-	<div class="col-sm-4" style="margin-top:10px">
-		<button class="btn btn-primary" data-toggle="collapse" data-target="#demo2">HSC <span class="glyphicon glyphicon-triangle-bottom"></span></button>
-		<div class="table-responsive collapse" id="demo2">
-			<table border="0" class="table-bordered">
-			<tr>
-				<th >HSC</th>
-			</tr>
-			<tr>
-				<td>DAV Centenary Public School</td>
-			</tr>
-			<tr>
-				<td>Jaipur, Rajasthan, India</td>
-			</tr>
-			<tr>
-				<td>High School/12th</td>
-			</tr>
-			<tr>
-				<td>81%</td>
-			</tr>	
-			<tr>
-				<td>2012-2014</td>
-			</tr>
-			<tr>
-				<td>CBSE</td>
-			</tr>
-			<tr>
-			<td style="font-size:22px; font-weight:300; color:#ffcc66; margin:0 0 24px;">Activities and Societies:</td>
-			</tr>
-			<tr>
-				<td>Football Team</td>
-			</tr>
-			<tr>
-				<td>Basketball Team</td>
-			</tr>
-			</table>
-		</div>
-	</div>
-	<div class="col-sm-4" style="margin-top:10px">
-		<button  class="btn btn-info" data-toggle="collapse" data-target="#demo3">SSC <span class="glyphicon glyphicon-triangle-bottom"></span></button>
-		<div class="table-responsive collapse" id="demo3">
-			<table border="0" class="table-bordered">
-			<tr>
-				<th>SSC</th>
-			</tr>
-			<tr>
-				<td>DAV Centenary Public School</td>
-			</tr>
-			<tr>
-				<td>Jaipur, Rajasthan, India</td>
-			</tr>
-			<tr>
-				<td>SSCE/10th</td>
-			</tr>
-			<tr>
-				<td>9.2 CGPA</td>
-			</tr>	
-			<tr>
-				<td>2012</td>
-			</tr>
-			<tr>
-				<td>CBSE</td>
-			</tr>
-			</table>
-		</div>
-	</div>
-	</div>
-	</div>
+	
+	<!--section 3-->
 	<div id="Skills" class="container-fluid">
 		<div class="row">
 			<div class="col-sm-4" style="background-color:#CBD4C2; border-radius: 50px 50px;" >
@@ -192,24 +196,35 @@
 			</div>
 			<div class="col-sm-4" style="background-color:#247BA0; border-radius: 50px 50px;">
 				<h3 style="font-family:Lucida Sans Unicode" class="titlemargin" ><span class="glyphicon glyphicon-plus-sign"></span> Follow me here</h3> 
-				<div class="iconscontainer"><p>LinkedIn: <a href="https://www.linkedin.com/in/syedahmadt" target="_blank" class="fa fa-linkedin"></a></p>
-				<p>Instagram: <a href="https://www.instagram.com/alekzanderx/" target="_blank" class="fa fa-instagram"></a></p>
-				<p>DeviantArt: <a href="https://alekzanderx.deviantart.com/" target="_blank" class="fa fa-deviantart"></a></p>
-				<p>Github: <a href="https://github.com/alekzanderx1" target="_blank" class="fa fa-github"></a></p>
-				<p>Twitter: <a href="#" target="_blank" class="fa fa-twitter"></a></p>
-				</div>
-
-			
-			</div>
-			
+					<table class="table whitetext" border="0">
+						<tr>
+						<td>Linkedin: </td>
+						<td> <a href="https://www.linkedin.com/in/syedahmadt" target="_blank" class="fa fa-linkedin"></a></td>
+						</tr>
+						<td>DeviantArt: </td>
+						<td> <a href="https://alekzanderx.deviantart.com/" target="_blank" class="fa fa-deviantart"></a></td>
+						</tr>
+						<td>Github: </td>
+						<td> <a href="https://github.com/alekzanderx1" target="_blank" class="fa fa-github"></a></td>
+						</tr>
+						<td>Instagram: </td>
+						<td> <a href="https://www.instagram.com/alekzanderx/" target="_blank" class="fa fa-instagram"></a></td>
+						</tr>
+						<td>Twitter: </td>
+						<td> <a href="https://www.linkedin.com/in/syedahmadt" target="_blank" class="fa fa-twitter"></a></td>
+						</tr>
+					</table>
 			</div>
 			
 		</div>
+			
 	</div>
+	<!--section 4-->
 	<div id="Gallery" class="container-fluid">
 	
 		
 	</div>
+	<!--section 5-->
 	<div id="Contact" class="container-fluid">
 		<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe6addzKew8S7y-ZPp6AHsh2OjGV29yjM2B152yAe2KkM-hiw/viewform?embedded=true" width="100%" height="90%" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 	</div>

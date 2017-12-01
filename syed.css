@@ -1,0 +1,50 @@
+.redpart
+{
+	height:98vh;
+	background-color:#FF6C1D;
+}
+.greenpart
+{
+	height:98vh;
+	background-color:#3EFF7E;
+}
+.bluepart
+{
+	height:98vh;
+	background-color:#7F3FFE;
+}
+
+.redpart:hover {
+	background: #F38549;
+}
+
+.bluepart:hover {
+	background: #9C6AFF;
+}
+
+.greenpart:hover {
+	background: #76F09F;
+}
+
+.about
+{
+	position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.skills
+{
+	 position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.follow
+{
+	 position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+

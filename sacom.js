@@ -1,11 +1,9 @@
-
+//fade out the preload gif while the website is loading
 $(window).on('load',function() {
 		$(".se-pre-con").fadeOut(1500);
 	});
 
-	
-
-
+//on clicking the Let us Begin button scroll down to education section and add the class 'in' to the Bachelors button to make it uncollapse
 $(document).ready( function () {
 	$( "#scrolldown" ).on('click', function() {
 		$('html, body').animate({
@@ -18,11 +16,7 @@ $(document).ready( function () {
 	});
 });
 
-
-/*$("demo1").one('scroll',function () {
-		$("#demo1").addClass("in");
-});*/
-
+//if the user scrolls down instead of clicking the Let us begin button, Uncollapse the Bachelors button the first time only
 $(window).on('scroll', function() {
     var y_scroll_pos = window.pageYOffset;
     var scroll_pos_test = 700; 
@@ -33,3 +27,9 @@ $(window).on('scroll', function() {
 			$triggered_times=1;
     }
 });
+
+
+/*$("demo1").one('scroll',function () {
+		$("#demo1").addClass("in");
+});*/
+

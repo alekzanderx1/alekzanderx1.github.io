@@ -10,12 +10,14 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="sacom.css">
 <link rel="icon" href="favicon.ico">
+<!--google font-->
 <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
 <script>
 	//to disable tooltips in touch devices
 	function isTouchDevice(){
     return true == ("ontouchstart" in window || window.DocumentTouch && document instanceof DocumentTouch);
 }
+	//to enable bootstrap tooltip on all non-touch devices
 	$(document).ready(function(){
 		if(isTouchDevice()===false) {
 
@@ -25,6 +27,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
+	<!--navbar with scrollspy which will track in which section of the page you are in-->
 	<div class="se-pre-con"></div>
 	<div class="navbar navbar-default navbar-fixed-top">
 		<div class="container-fluid">
@@ -48,7 +51,7 @@
 		</div>
 	</div>
 	
-	<!--Section 1-->
+	<!--Section 1 Welcome Section-->
 	<div id="About" class="container-fluid">
 		<div id="showonload">
 			<img class="img-responsive" id="computer" src="images/coolcat.png" alt="Oops"></img>
@@ -57,7 +60,7 @@
 		</div>
 	</div>
 	
-	<!--Section 2-->
+	<!--Section 2 Education section-->
 	<div id="Education" class="container-fluid">
 		<div class="container-fluid" style="background-color:#B4D599; box-shadow:-3px 3px 12px #D1D596;"><h1><center><span class="glyphicon glyphicon-book"></span>Education</center></h1><br /></div>
 		<div class="row">
@@ -166,7 +169,7 @@
 		</div>
 	</div>
 	
-	<!--section 3-->
+	<!--section 3 Skills and social media icons-->
 	<div id="Skills" class="container-fluid">
 		<div class="row">
 			<div class="col-sm-4" style="background-color:#CBD4C2; border-radius: 50px 50px;" >
@@ -219,7 +222,7 @@
 		</div>
 			
 	</div>
-	<!--section 4-->
+	<!--section 4 gallery/showcase-->
 	<div id="Gallery" class="container-fluid">
 		<div class="container-fluid" ><center>
 			<div id="myCarousel" class="carousel slide" data-ride="carousel" style="border: 1px dotted white">
